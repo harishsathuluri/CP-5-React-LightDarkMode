@@ -1,0 +1,66 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+}
+.card-container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 10px;
+}
+.card-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 10px;
+}
+.mode-title-light {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.mode-title-dark {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 6px;
+  border-style: none;
+  color: black;
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
